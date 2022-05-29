@@ -1,6 +1,5 @@
 import {Injectable} from '@nestjs/common'
 
-import {RpcException} from '@nestjs/microservices'
 import {InjectRepository} from '@nestjs/typeorm'
 import {Repository} from 'typeorm'
 

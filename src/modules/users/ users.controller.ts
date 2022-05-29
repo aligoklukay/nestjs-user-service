@@ -1,5 +1,5 @@
-import {Controller, Body, Inject, UseFilters} from '@nestjs/common'
-import {MessagePattern, RpcException} from '@nestjs/microservices'
+import {Controller, Inject} from '@nestjs/common'
+import {MessagePattern} from '@nestjs/microservices'
 
 import {UsersService} from './users.service'
 
